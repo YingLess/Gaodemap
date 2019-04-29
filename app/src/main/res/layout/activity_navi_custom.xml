@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/drawer_text_color_blue"
+    android:orientation="vertical"
+    tools:context="com.yixin.edu.myapplication.gaodeui.NaviCustomActivity">
+    <com.amap.api.navi.AMapNaviView
+        android:id="@+id/customnavimap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"/>
+
+    <com.yixin.edu.myapplication.gaode.StatusBarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/navi_status_bar_bg"/>
+</FrameLayout>
